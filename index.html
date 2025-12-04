@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortCity - Ana Sayfa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url('https://scontent.fist4-1.fna.fbcdn.net/v/t39.30808-6/480896086_3644160722540722_4404200665311597049_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=W78Z5WSg4dUQ7kNvwHWx7j7&_nc_oc=AdkupYqpIfbigGGoId_e_ZMtsgsrRSKexDMQWZ3GoxkGEl2gu2KftlXYCkJLhIxMgf4&_nc_zt=23&_nc_ht=scontent.fist4-1.fna&_nc_gid=28GTHS5jMkLNEEmxFgWPig&oh=00_Afm3hNjsGl23ZZw6rH1sIlU3IFpCv6FyqDxyUMsoYUNfMg&oe=6937828F'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; }
+        .header { background: linear-gradient(45deg, #1e3c72, #2a5298); color: white; padding: 20px 20px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .header h1 { font-size: 3em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .nav { background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 15px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        .nav a { color: white; text-decoration: none; margin: 0 20px; padding: 12px 24px; border-radius: 25px; transition: all 0.3s ease; font-weight: 500; }
+        .nav a:hover { background: rgba(255,255,255,0.2); transform: translateY(-2px); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .hero { background: rgba(255,255,255,0.95); padding: 50px; border-radius: 20px; margin: 30px 0; box-shadow: 0 10px 40px rgba(0,0,0,0.2); backdrop-filter: blur(10px); }
+        .card { background: white; padding: 30px; margin: 20px 0; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-5px); }
+        .footer { background: linear-gradient(45deg, #1e3c72, #2a5298); color: white; text-align: center; padding: 30px; margin-top: 60px; }
+        .image-gallery { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 30px 0; }
+        .image-item { border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.2); transition: transform 0.3s ease; }
+        .image-item:hover { transform: scale(1.05); }
+        .highlight { color: #2a5298; font-weight: bold; }
+        .table-modern { width: 100%; border-collapse: collapse; margin: 30px 0; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .table-modern th { background: linear-gradient(45deg, #2a5298, #1e3c72); color: white; padding: 15px; font-weight: 600; }
+        .table-modern td { padding: 15px; border-bottom: 1px solid #eee; }
+        .table-modern tr:hover { background: #f8f9ff; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+        .feature-card { background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease; }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .feature-icon { font-size: 2.5em; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="file:///C:/Users/ozdem/Downloads/dasd.png" alt="PortCity Marina" style="max-height: 180px; margin-bottom: 15px;">
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="services.html">Aktiviteler & Mekanlar</a>
+        <a href="contact.html">İletişim</a>
+    </div>
+
+    <div class="container">
+        <div class="hero">
+            <h2 style="color: #1e3c72; font-size: 2.5em; margin-bottom: 20px;">⚓ PortCity'ye Hoş Geldiniz!</h2>
+            <p style="font-size: 1.2em; line-height: 1.6; color: #555;">Modern marina tesisleri, <b>lüks restoranlar</b> ve <u>eşsiz deniz manzarası</u> ile PortCity, şehrimizin yeni gözdesi haline geldi.</p>
+
+        </div>
+
+        <div class="card">
+            <h3 style="color: #1e3c72; font-size: 2em; margin-bottom: 25px; text-align: center;">Neden PortCity?</h3>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h4><span class="highlight">Modern Marina Tesisleri</span></h4>
+                    <p>Son teknoloji ile donatılmış marina</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h4>Güvenli Yat Park Alanları</h4>
+                    <p>24/7 güvenlik ve kamera sistemi</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍽️</div>
+                    <h4>Kaliteli Restoran ve Kafeler</h4>
+                    <p>Deniz manzaralı lezzet durağı</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏄</div>
+                    <h4>Deniz Sporları İmkanları</h4>
+                    <p>Su sporları ve aktiviteler</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3 style="color: #1e3c72; font-size: 2em; margin-bottom: 25px; text-align: center;">📅 Haftalık Etkinlik Programı</h3>
+            <table class="table-modern">
+                <tr>
+                    <th>Gün</th>
+                    <th>Etkinlik</th>
+                    <th>Saat</th>
+                </tr>
+                <tr>
+                    <td><strong>Pazartesi</strong></td>
+                    <td>🧘 Yoga Dersi</td>
+                    <td>08:00</td>
+                </tr>
+                <tr>
+                    <td><strong>Çarşamba</strong></td>
+                    <td>🎣 Balık Tutma Turu</td>
+                    <td>14:00</td>
+                </tr>
+                <tr>
+                    <td><strong>Cumartesi</strong></td>
+                    <td>🎵 Canlı Müzik</td>
+                    <td>20:00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 PortCity Marina - Tüm hakları saklıdır.</p>
+    </div>
+</body>
+</html>

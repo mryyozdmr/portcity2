@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortCity Hakkında</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url('https://scontent.fist4-1.fna.fbcdn.net/v/t39.30808-6/480896086_3644160722540722_4404200665311597049_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=W78Z5WSg4dUQ7kNvwHWx7j7&_nc_oc=AdkupYqpIfbigGGoId_e_ZMtsgsrRSKexDMQWZ3GoxkGEl2gu2KftlXYCkJLhIxMgf4&_nc_zt=23&_nc_ht=scontent.fist4-1.fna&_nc_gid=28GTHS5jMkLNEEmxFgWPig&oh=00_Afm3hNjsGl23ZZw6rH1sIlU3IFpCv6FyqDxyUMsoYUNfMg&oe=6937828F'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; }
+        .header { background: linear-gradient(45deg, #1e3c72, #2a5298); color: white; padding: 20px 20px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .header h1 { font-size: 3em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .nav { background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 15px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        .nav a { color: white; text-decoration: none; margin: 0 20px; padding: 12px 24px; border-radius: 25px; transition: all 0.3s ease; font-weight: 500; }
+        .nav a:hover { background: rgba(255,255,255,0.2); transform: translateY(-2px); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .content { background: rgba(255,255,255,0.95); padding: 40px; border-radius: 20px; margin: 30px 0; box-shadow: 0 10px 40px rgba(0,0,0,0.2); backdrop-filter: blur(10px); }
+        .section { margin: 30px 0; padding: 25px; background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .timeline { position: relative; padding-left: 30px; }
+        .timeline::before { content: ''; position: absolute; left: 15px; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, #2a5298, #1e3c72); }
+        .timeline-item { position: relative; margin: 20px 0; padding-left: 30px; }
+        .timeline-item::before { content: ''; position: absolute; left: -37px; top: 5px; width: 12px; height: 12px; border-radius: 50%; background: #2a5298; }
+        .footer { background: linear-gradient(45deg, #1e3c72, #2a5298); color: white; text-align: center; padding: 30px; margin-top: 60px; }
+        .highlight { color: #2a5298; font-weight: bold; }
+        .feature-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .feature-item { background: #f8f9ff; padding: 15px; border-radius: 10px; border-left: 4px solid #2a5298; }
+        iframe { border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="file:///C:/Users/ozdem/Downloads/dasd.png" alt="PortCity Marina" style="max-height: 180px; margin-bottom: 15px;">
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="services.html">Aktiviteler & Mekanlar</a>
+        <a href="contact.html">İletişim</a>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2 style="color: #1e3c72; font-size: 2.5em; text-align: center; margin-bottom: 30px;">🏢 PortCity Hakkında</h2>
+            
+            <div class="section">
+                <h3 style="color: #2a5298; font-size: 1.8em; margin-bottom: 20px;">📜 Tarihçemiz</h3>
+                <p style="font-size: 1.1em; line-height: 1.7; color: #555;">PortCity Marina projesi, <b>2023 yılında</b> şehrimizin turizm potansiyelini artırmak amacıyla başlatılmıştır. <u>Modern tasarım</u> ve <i>çevre dostu</i> yaklaşımla inşa edilen bu alan, hem yerli hem de yabancı turistlerin ilgi odağı haline gelmiştir.</p>
+            </div>
+
+            <div class="section">
+                <h4 style="color: #2a5298; font-size: 1.5em; margin-bottom: 25px;">📅 Proje Aşamaları</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h5>Arazi hazırlığı ve planlama (2023)</h5>
+                        <p>Proje alanının belirlenmesi ve çevre düzenlemeleri</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h5>Marina inşaatı (2023-2024)</h5>
+                        <p>Ana yapıların inşası ve altyapı çalışmaları</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h5>Tesis kurulumu ve test aşaması</h5>
+                        <p>Ekipman kurulumu ve sistem testleri</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h5>Resmi açılış ve hizmete giriş</h5>
+                        <p>Halka açılış ve tam kapasite çalışma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h4 style="color: #2a5298; font-size: 1.5em; margin-bottom: 25px;">✨ Özelliklerimiz</h4>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <strong><span class="highlight">150 yat kapasiteli</span> modern marina</strong>
+                    </div>
+                    <div class="feature-item">
+                        <strong>24/7 güvenlik hizmeti</strong>
+                    </div>
+                    <div class="feature-item">
+                        <strong>Elektrik ve su bağlantıları</strong>
+                    </div>
+                    <div class="feature-item">
+                        <strong>Yakıt istasyonu</strong>
+                    </div>
+                    <div class="feature-item">
+                        <strong>Teknik servis imkanları</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 style="color: #2a5298; font-size: 1.8em; margin-bottom: 20px;">📚 Wikipedia Bilgileri</h3>
+                <iframe src="https://tr.wikipedia.org/wiki/Marina" width="100%" height="350"></iframe>
+            </div>
+
+            <div class="section">
+                <h4 style="color: #2a5298; font-size: 1.5em; margin-bottom: 20px;">🔗 Dış Bağlantılar</h4>
+                <p style="margin-bottom: 15px;">Daha fazla bilgi için:</p>
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <a href="https://www.belediye.gov.tr" target="_blank" style="color: white; background: linear-gradient(45deg, #2a5298, #1e3c72); padding: 12px 24px; border-radius: 25px; text-decoration: none; transition: transform 0.3s ease;">Belediye Resmi Sitesi</a>
+                    <a href="https://tr.wikipedia.org/wiki/Marina" target="_blank" style="color: white; background: linear-gradient(45deg, #2a5298, #1e3c72); padding: 12px 24px; border-radius: 25px; text-decoration: none; transition: transform 0.3s ease;">Marina Hakkında (Wikipedia)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 PortCity Marina - Tüm hakları saklıdır.</p>
+    </div>
+</body>
+</html>
