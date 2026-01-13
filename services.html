@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortCity - Aktiviteler & Mekanlar</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url('https://scontent.fist4-1.fna.fbcdn.net/v/t39.30808-6/480896086_3644160722540722_4404200665311597049_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=W78Z5WSg4dUQ7kNvwHWx7j7&_nc_oc=AdkupYqpIfbigGGoId_e_ZMtsgsrRSKexDMQWZ3GoxkGEl2gu2KftlXYCkJLhIxMgf4&_nc_zt=23&_nc_ht=scontent.fist4-1.fna&_nc_gid=28GTHS5jMkLNEEmxFgWPig&oh=00_Afm3hNjsGl23ZZw6rH1sIlU3IFpCv6FyqDxyUMsoYUNfMg&oe=6937828F'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; }
@@ -21,7 +22,7 @@
         .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
         .menu-item { background: #f8f9ff; padding: 15px; border-radius: 10px; text-align: center; border-left: 4px solid #2a5298; }
         .activity-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
-        .activity-item { background: #f8f9ff; padding: 20px; border-radius: 15px; transition: all 0.3s ease; }
+        .activity-item { background: #f8f9ff; padding: 20px; border-radius: 15px; transition: all 0.3s ease; position: relative; }
         .activity-item:hover { background: #e6f3ff; transform: translateY(-2px); }
         .footer { background: linear-gradient(45deg, #1e3c72, #2a5298); color: white; text-align: center; padding: 30px; margin-top: 60px; }
         .price-table { width: 100%; border-collapse: collapse; margin: 30px 0; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
@@ -52,8 +53,8 @@
                 <div class="service-icon">🍽️</div>
                 <h3 style="color: #2a5298; font-size: 1.8em;">Restoranlar & Kafeler</h3>
             </div>
-            <p style="font-size: 1.1em; line-height: 1.6; margin-bottom: 20px;"><b>Deniz Mutfağı Restoranı:</b> Taze deniz ürünleri ve <i>geleneksel lezzetler</i></p>
-            <p style="font-size: 1.1em; line-height: 1.6; margin-bottom: 25px;"><b>Marina Kafe:</b> <u>Kahve</u> ve hafif atıştırmalıklar</p>
+            <p style="font-size: 1.1em; line-height: 1.6; margin-bottom: 20px;"><b>Deniz Mutfağı Restoranı:</b> Taze deniz ürünleri ve geleneksel lezzetler</p>
+            <p style="font-size: 1.1em; line-height: 1.6; margin-bottom: 25px;"><b>Marina Kafe:</b> Kahve ve hafif atıştırmalıklar</p>
             
             <h4 style="color: #1e3c72; margin-bottom: 20px;">Popüler Menü Öğeleri</h4>
             <div class="menu-grid">
@@ -83,7 +84,7 @@
             </div>
             <div class="activity-list">
                 <div class="activity-item">
-                    <h5><span class="highlight">Yelken kursu</span></h5>
+                    <h5>Yelken kursu</h5>
                     <p>Başlangıç seviyesi eğitimi</p>
                 </div>
                 <div class="activity-item">
@@ -110,7 +111,7 @@
                 <div class="service-icon">🏪</div>
                 <h3 style="color: #2a5298; font-size: 1.8em;">Alışveriş & Hizmetler</h3>
             </div>
-            <p style="font-size: 1.1em; margin-bottom: 20px;">Marina kompleksinde bulunan <b>hizmet alanları:</b></p>
+            <p style="font-size: 1.1em; margin-bottom: 20px;">Marina kompleksinde bulunan hizmet alanları:</p>
             <div class="activity-list">
                 <div class="activity-item">
                     <h5>Denizcilik malzemeleri mağazası</h5>
@@ -168,5 +169,7 @@
     <div class="footer">
         <p>&copy; 2024 PortCity Marina - Tüm hakları saklıdır.</p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
